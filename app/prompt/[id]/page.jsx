@@ -22,7 +22,7 @@ const PromptProfile = ({ params }) => {
       });
     };
     if (session?.user.id) fetchPost();
-  }, [session?.user.id]);
+  }, [session.user.id]);
 
   const updatePrompt = async () => {
     setSubmitting(true);
